@@ -1,3 +1,4 @@
 db.sqlite3
+ghostdriver.log
 __pycache__
 *.pyc
