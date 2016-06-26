@@ -22,3 +22,4 @@ class HomePageTest(TestCase):
         self.assertIn(b'<title>To-Do lists</title>', response.content)
         self.assertTrue(response.content.endswith(b'</html>'))
 
+
