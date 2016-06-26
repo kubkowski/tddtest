@@ -44,7 +44,7 @@ class NewVisitorTest(unittest.TestCase):
         self.assertTrue(
             any(row.text == '1: Buy peacock feathers' for row in rows)
         )
-        
+
         # There is still a text box inviting her to add another item. She
         # enters "Use peacock feathers to make a fly" (Edith is very methodical)
         self.fail('Finish tests!')
